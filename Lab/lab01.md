@@ -63,7 +63,7 @@ Microsoft Azure에 가상 네트워크를 구성하고 관련된 기능들에 �
     - `이름`: `test`
     - `IP 주소`: `192.168.0.100`
 
-1. 좌측 네비게이션 메뉴에서 **DNS 관리** > **레코드 집합**을 선택한 후 상단에 **+ 추가**를 클릭한다.
+1. 좌측 네비게이션 메뉴에서 **DNS 관리** > **Virtual Network 링크**을 선택한 후 상단에 **+ 추가**를 클릭한다.
 
 1. 다음을 참고하여 Virtual Network 링크를 만든다.
     - `링크 이름`: `vpn-lab-vnet-hub-connect-xx`
@@ -103,6 +103,6 @@ Microsoft Azure에 가상 네트워크를 구성하고 관련된 기능들에 �
 
 1. 명령어 창에 다음과 같은 명령어를 입력하여 결과를 확인한다.
     ```bash
-    nslookup vpn-lab-VM01
+    nslookup vpn-lab-VM01-xx
     nslookup test.vpn-lab.local 168.63.129.16
     ```
